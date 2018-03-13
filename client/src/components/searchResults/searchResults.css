@@ -1,0 +1,48 @@
+.SearchResults,.SearchResultsHeader{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding:10px;
+    float: left;
+}
+.DateBox{
+    float:right;
+    text-align: center;
+    font-weight: bold;
+}
+.Description{
+    width: 80%;
+    float:left;
+}
+.ImageBox{
+    width:20%;
+    float:left;
+}
+.OneWay{
+    float:left;
+    width:50%;
+}
+.RoundTrip{
+    float:left;
+    width:50%;
+}
+.AvailabilityMessage{
+    display: none;
+}
+.AvailabilityMessage:nth-child(1){
+    display: block; 
+}
+
+.wrongData{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.cityName{
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.cityName:nth-child(2){
+    margin-left: 5px;
+    margin-top:12px;
+}

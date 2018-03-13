@@ -1,0 +1,16 @@
+.searchBox{
+    float:none;
+    width:100%;
+    margin: 0 auto;
+}
+.heading{
+    margin-top:100px;
+    margin-left:50px;
+}
+@media (min-width:768px){
+    .searchBox{
+        float:left;
+        max-width: 550px;
+        width:70%;
+    }
+}
